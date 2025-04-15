@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "node.js": "^0.0.1-security"
+  },
+  "name": "z-prefix-pair-programming-practice",
+  "version": "1.0.0",
+  "description": "This repo contains pair-programming challenges to provide practice for pair-programming interviews.  This repo is design to be used by two people, one playing the role of the _Navigator_, and one playing the role of the _Driver_.  The Driver is the person who will do all of the typing and run the tests, the Navigator is responsible for coming up with and directing the problem-solving approach that will be used - in other words, the Navigator will tell the Driver what they want to do, and the Driver will implement the described changes without adding anythign the Navigator didn't mention.  As you may have guessed, in this simulation, the Navigator is the person being interviewed, and the Driver is the interviewer. This is an exercise to practice effective communication and teamwork in live-action problem solving scenario for the Navigator.  You are encouraged to switch roles once you've completed your first challenge (and switch challenges to keep things fresh) so that both of you get a chance to be \"in the hot seat\"!",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenalongoria/z-prefix-pair-programming-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenalongoria/z-prefix-pair-programming-practice/issues"
+  },
+  "homepage": "https://github.com/lorenalongoria/z-prefix-pair-programming-practice#readme"
+}

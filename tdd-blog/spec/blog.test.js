@@ -46,13 +46,13 @@ describe('Blog', () => {
   //   blog.addBlogPost("A Blog About Shoes", "Steve Madden", "Fashion")
   //   blog.addBlogPost("Gardening in High Altitudes", "The Garden Master", "Home Improvement")
   //   expect(blog.getBlogsFromGenre("Sports")).toEqual([
-  //     { 
-  //       title: "How to Swim Fast", 
-  //       author: "Michael Phelps", 
-  //       genre: "Sports"
-  //     }, 
   //     {
-  //       title: "I Love Football!", 
+  //       title: "How to Swim Fast",
+  //       author: "Michael Phelps",
+  //       genre: "Sports"
+  //     },
+  //     {
+  //       title: "I Love Football!",
   //       author: "Tom Brady",
   //       genre: "Sports"
   //     }
@@ -90,10 +90,10 @@ describe('Blog', () => {
   //   expect(blog.getBlogComments("I Love Football!")).toEqual([
   //     {
   //       comments: [
-  //         { user: "ashcoca",comment: "I love football too! Lol!" }, 
+  //         { user: "ashcoca",comment: "I love football too! Lol!" },
   //         { user: "brandon_ck", comment: "GO FALCONS!" }
   //       ]
-  //     }, 
+  //     },
   //   ])
   // })
 
@@ -106,7 +106,7 @@ describe('Blog', () => {
   //   blog.addComment("How to Swim Fast", "katiehoesley", "I hate this article!")
   //   blog.addComment("I Love Football!", "ashcoca", "I love football too! Lol!")
   //   blog.addComment("I Love Football!", "brandon_ck", "GO FALCONS!")
-  //   expect(blog.getCommentsBy("katiehoesley")).toEqual({ user: "katiehoesley", comments: 
+  //   expect(blog.getCommentsBy("katiehoesley")).toEqual({ user: "katiehoesley", comments:
   //     [
   //       { article: "How to Swim Fast", comment: "I hate this article!"}
   //     ]
@@ -117,7 +117,7 @@ describe('Blog', () => {
 
   // it('can delete a blog by the blog title', () => {
   //   let blog = new Blog();
-   
+
   //   blog.addBlogPost("I Love Football!", "Tom Brady", "Sports")
   //   blog.addBlogPost("How to Swim Fast", "Michael Phelps", "Sports")
   //   expect(blog.getBlogPosts()).toEqual(["I Love Football!", "How to Swim Fast"])
